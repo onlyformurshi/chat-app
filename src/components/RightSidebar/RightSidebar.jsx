@@ -1,6 +1,7 @@
 import React from 'react'
 import './RightSidebar.css'
 import assets from '../../assets/assets'
+import { Link } from 'react-router-dom'
 function RightSidebar() {
   return (
     <div className='rs'>
@@ -20,6 +21,7 @@ function RightSidebar() {
           <img src={assets.pic1} alt="" />
           <img src={assets.pic2} alt="" />
         </div>
+        <p><Link to='/profile'>profile all</Link></p>
       </div>
       <button>Logout</button>
     </div>
