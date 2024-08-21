@@ -19,9 +19,9 @@ function RightSidebar() {
           <img src={assets.pic4} alt="" />
           <img src={assets.pic1} alt="" />
           <img src={assets.pic1} alt="" />
-          <img src={assets.pic2} alt="" />
+          <img src={assets.pic2}  alt="" />
         </div>
-        <p><Link to='/profile'>profile all</Link></p>
+        <p><Link to='/profile'>profile alffffffffffffffffffl</Link></p>
       </div>
       <button>Logout</button>
     </div>
