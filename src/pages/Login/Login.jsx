@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './Login.css'
 import assets from '../../assets/assets'
+import { Link } from 'react-router-dom'
 function Login() {
   const [current, setCurrent] = useState('Sign Up')
   return (
@@ -33,6 +34,7 @@ function Login() {
               </>
             )}
           </p>
+          <p><Link to='/chat'>Chat</Link></p>
         </div>
       </form>
     </div>
